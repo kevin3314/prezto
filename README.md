@@ -121,6 +121,14 @@ Resources
 
 The [Zsh Reference Card][7] and the [zsh-lovers][8] man page are indispensable.
 
+
+Changes
+-------
+
+- Changed default configuration files.
+- Changed zlogin -> zlogin_orig. Copy it to zlogin and make symlink to it.
+
+
 License
 -------
 
