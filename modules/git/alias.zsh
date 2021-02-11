@@ -5,8 +5,13 @@
 # Git version checking
 autoload -Uz is-at-least
 git_version="${${(As: :)$(git version 2>/dev/null)}[3]}"
-# autoload -Uz compinit
-# compinit
+
+case `uname` in
+  Darwin)
+    autoload -Uz compinit
+    compinit
+  ;;
+esac
 
 #
 # Functions
