@@ -73,8 +73,8 @@ alias tmux='/usr/bin/tmux'
 alias history='history 1'
 
 # completion
-autoload -U compinit
-compinit
+# autoload -U compinit
+# compinit
 
 zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 
